@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Верстальщик - Мартюшев Андрей</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+</head>
+<body>
+	<header id="js-header">
+		<div class="navigation">
+			<div class="social-icons-header">
+				<a href="https://vk.com/killabizza" target="_blank"><img src="img/VK.png" alt=""></a>
+				<a href="https://www.instagram.com/killa_bizza/" target="_blank"><img src="img/instagram.png" alt=""></a>
+				<a href="" target="_blank"><img src="img/facebook.png" alt=""></a>
+			</div>
+			<div class="nav" id="js-nav-container">
+				<a href="#" id="js-link-our-me">Обо мне</a>
+				<a href="#" id="js-link-my-skills">Мои статы</a>
+				<a href="#" id="js-link-viev-skills">Демонстрация</a>
+				<a href="#" id="js-link-contacts">Контакты</a>
+			</div>
+		</div>
+		<div class="hello-block">
+			<h1>ПРИВЕТ! <br> МЕНЯ ЗОВУТ МАРТЮШЕВ АНДРЕЙ <br> И Я ВЕРСТАЛЬЩИК...</h1>
+		</div>
+		<div class="scroll-logo">
+			<a href="#"><img  class="wow animated infinite fadeInDown" data-wow-duration="2s" src="img/mouse-header-scroll.png" alt="">
+				<br>
+				<img class="wow animated infinite fadeInDown" data-wow-duration="2s" src="img/arrow-header-scroll.png" alt="">
+				<span class="wow animated infinite fadeInDown" data-wow-duration="2s">srcoll please</span></a>
+			</div>
+		</header>
+		<div id="fullpage">
+				<!-- БЛОК ОБО МНЕ -->
+			<div class="our-me" id="js-our-me">
+				<div class="container">
+					<div class="our-me__avatar">
+						<img class="wow animated fadeInRight" data-wow-offset="400" src="img/avatar.JPG" alt="">
+					</div>
+					<div class="our-me__info">
+						<h2>Немного обо мне</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sit, in iusto dolorem quidem earum consequatur asperiores veritatis tempora accusamus mollitia expedita magnam, nobis ipsa atque est provident, vero eius!
+						</p>
+					</div>	
+				</div>
+			</div>
+
+				<!-- БЛОК С АНИМ. КРУГАМИ -->
+			<div class="my-skills" id="js-my-skills">
+				
+				<h2>ПРОКАЧКА СКИЛОВ</h2>
+				<div>
+					<div class="circle-container">
+						<h3>HTML</h3>
+						<div class="circlestat" data-dimension="200" data-text="90%" data-width="30" data-fontsize="38" data-percent="90" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+					</div>
+					<div class="circle-container">
+						<h3>CSS</h3>
+						<div class="circlestat" data-dimension="200" data-text="75%" data-width="30" data-fontsize="38" data-percent="75" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+					</div>
+					<div class="circle-container">
+						<h3>Bootstrap</h3>
+						<div class="circlestat" data-dimension="200" data-text="59%" data-width="30" data-fontsize="38" data-percent="59" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+					</div>
+					<div class="circle-container">
+						<h3>jQuery</h3>
+						<div class="circlestat" data-dimension="200" data-text="42%" data-width="30" data-fontsize="38" data-percent="42" data-fgcolor="#61a9dc" data-bgcolor="#eee" data-fill="#ddd"></div>
+					</div>
+					<!-- Еще круги -->
+				</div>
+			</div>
+
+				<!-- БЛОК ГАЛКИ С УМЕНИЯМИ -->
+			<div class="container" id="js-viev-skills">
+				<div class="check-skill">
+					<h2>Навыки</h2>
+					<div class="wow animated fadeInLeft" data-wow-duration="0.7s" data-wow-offset="180">
+						<img src="img/checkmark.png" alt="">
+						<span>Уверенное владение HTML и CSS</span>
+					</div>
+					<div class="wow animated fadeInLeft" data-wow-duration="0.8s"  data-wow-offset="180">
+						<img src="img/checkmark.png" alt="">
+						<span>Знание Javascript (фреймворк JQuery)</span>
+					</div>
+					<div class="wow animated fadeInLeft" data-wow-duration="0.9s" data-wow-offset="170">
+						<img src="img/checkmark.png" alt="">
+						<span>Знание фреймворка bootstrap 3</span>
+					</div>
+					<div class="wow animated fadeInLeft" data-wow-duration="1s" data-wow-offset="170">
+						<img src="img/checkmark.png" alt="">
+						<span>Адаптивная верстка под все устройства</span>
+					</div>
+					<div class="wow animated fadeInLeft" data-wow-duration="1.2s" data-wow-offset="160">
+						<img src="img/checkmark.png" alt="">
+						<span>Умение работать с чужим кодом</span>
+					</div>
+				</div>
+			</div>
+				
+				<!-- БЛОК МОДАЛЬНОЕ ОКНО АККОРДЕОН -->
+			<div class="container">
+				<h1>Тут продемонстрированны некоторые мои навыки</h1>
+				<div class="skill-block">
+					<div class="modal-block">
+						Модальное окно:	<br>
+						<br>
+						<a href="#" class="btn-dark js-show-modal">проверить</a>
+					</div>
+				</div>
+				<br>
+				<div class="skill-block">
+					<div class="technologies">
+						Аккордеон
+						<br>
+						<br>
+						<a href="#" class="js-technologies-title js-popup btn-dark">Проверить</a>
+						<div class="technologies-content js-technologies-content"><img src="img/HTML.png" alt=""><img src="img/css.png" alt=""></div>
+						<div class="technologies-content js-technologies-content"><img src="img/jQuery.png" alt=""></div>
+						<div class="technologies-content js-technologies-content"><img src="img/Bootstrap.png" alt=""></div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<div class="single-item">
+					<div><img src="img/1-galery.jpg" alt=""></div>
+					<div><img src="img/2-galery.jpg" alt=""></div>
+					<div><img src="img/3-galery.jpg" alt=""></div>
+					<div><img src="img/4-galery.jpg" alt=""></div>
+					<div><img src="img/5-galery.jpg" alt=""></div>
+					<div><img src="img/6-galery.jpg" alt=""></div>
+				</div>
+			</div>
+
+			<!-- ======== МОДАЛЬНЫЕ ОКНА ===========  -->
+			<div class="overlay" id="js-overlay"></div>
+			<div class="modal js-modal" id="js-modal-first">
+				<h2>Title</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla autem quos, suscipit est ab consectetur sed omnis adipisci reiciendis inventore obcaecati temporibus voluptatum eos, molestiae animi accusamus libero rem! Nulla!
+				</p>
+				<a href="#" class="btn-dark js-modal-close">Закрыть</a>
+			</div>
+			<!-- ======== КОНТАКТЫ ===========  -->
+			<div class="contact" id="js-contacts">
+				<div class="container">
+					<h2>Если я смог Вас заинтересовать, то Вы всегда можете мне:</h2>
+					<div class="contact-skype">
+						<img src="img/skype.png" alt="">
+						<div>позвонить: martjushev2009</div>
+					</div>
+					<div class="contact-email">
+						<img src="img/email.png" alt="">
+						<div>написать: martjushev2009@yandex.ru</div>
+					</div>
+					<div class="contact-mobile">
+						<img src="img/phone.png" alt="">
+						<div>позвонить: +7-927-279-61-32</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="social-icons-footer">
+				<a href="https://vk.com/killabizza" target="_blank"><img src="img/VK-dark.png" alt=""></a>
+				<a href="https://www.instagram.com/killa_bizza/" target="_blank"><img src="img/instagram-dark.png" alt=""></a>
+				<a href="" target="_blank"><img src="img/facebook-dark.png" alt=""></a>
+				<br>
+				Мартюшев Андрей
+			</div>
+		</footer>
+
+		<!-- JavaScript section -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/slick-carousel/slick/slick.min.js"></script>
+		<script src="js/jquery.circliful.min.js"></script>
+		<script src="bower_components/wow/dist/wow.min.js"></script>
+		<script src="js/custom.js"></script>
+
+
+	</body>
+	</html>

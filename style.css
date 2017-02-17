@@ -1,0 +1,365 @@
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+.container:before,
+.container:after,
+.clear:before,
+.clear:after{
+	content: " ";
+	display: table;
+}
+.container:after,
+.clear:after{
+	clear: both;
+}
+
+/* Webfont: Lato-Regular */@font-face {
+	font-family: 'LatoWeb';
+	src: url('fonts/latoRegular/Lato-Regular.eot'); /* IE9 Compat Modes */
+	src: url('fonts/latoRegular/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/latoRegular/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+	url('fonts/latoRegular/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+	url('fonts/latoRegular/Lato-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+/* Webfont: Lato-Light */@font-face {
+	font-family: 'LatoWebLight';
+	src: url('fonts/latoLight/Lato-Light.eot'); /* IE9 Compat Modes */
+	src: url('fonts/latoLight/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('fonts/latoLight/Lato-Light.woff2') format('woff2'), /* Modern Browsers */
+	url('fonts/latoLight/Lato-Light.woff') format('woff'), /* Modern Browsers */
+	url('fonts/latoLight/Lato-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+a {
+	text-decoration: none;
+}
+.btn-dark {
+	background: #333;
+	display: inline-block;
+	color: #FFF;
+	padding: 10px 15px;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'LatoWeb';
+}
+header {
+	background: url("img/header-bg.png") no-repeat bottom;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+}
+.navigation {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 15px;
+}
+.social-icons-header {
+	display: inline-block;
+}
+.social-icons-header img {
+	margin-right: -4.8px;
+}
+.nav {
+	display: inline-block;
+	float: right;
+}
+.nav a {
+	color: #333;
+	text-decoration: none;
+	margin-right: 20px;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 200;
+	background-color: #333;
+	padding: 10px 10% 10px 10%;
+	text-align: right;
+}
+.fixed a {
+	color: #FFF;
+}
+.hello-block {
+	width: 100%;
+	text-align: center;
+	padding-top: 150px;
+}
+.scroll-logo {
+	width: 100%;
+	padding-top: 10%;
+	text-align: center;
+}
+.scroll-logo img {
+	display: block;
+	margin: 0 auto;
+}
+.scroll-logo span {
+	width: 100%;
+	display: block;
+	margin-top: 15px;
+	color: #FFF;
+	font-family: 'LatoWebLight';
+	font-size: 16px;
+}
+
+
+.our-me {
+	width: 100%;
+	height: 100vh;
+	background: #f3f3f3;
+}
+.our-me .our-me__avatar {
+	width: 50%;
+	float: right;
+}
+.our-me__avatar img {
+	max-width: 75%;
+	margin-top: 58px;
+	float: right;
+	display: inline-block;
+}
+.our-me .our-me__info {
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+}
+
+/** ======СТИЛИ ДЛЯ ОФОРМЛЕНИЯ ПРОГРЕССБАРА======== **/
+.content {
+   width: 100%;
+   margin: 0 auto;
+}
+ 
+.content:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+ 
+#stats {
+   display: block;
+   width: 100%;
+   padding: 15px 0;
+   background: #f8f8f8;
+   border-top: 4px solid #c3c3c3;
+   border-bottom: 4px solid #c3c3c3;
+}
+ 
+#stats .row {
+   display: block;
+}
+ 
+.circle-container {
+   display: block;
+   float: left;
+   margin-bottom: 45px;
+   width:25%;
+}
+ 
+.circle-container h3 {
+   display: block;
+   text-align: center;
+   font-size: 2.25em;
+   line-height: 1.4em;
+   color: #363636;
+   text-shadow: 1px 1px 0 #fff;
+}
+ 
+.circlestat {
+   margin: 0 auto;
+}
+.circliful {
+    position: relative; 
+}
+
+.circle-text, .circle-info, .circle-text-half, .circle-info-half {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+}
+
+.circle-info, .circle-info-half {
+	color: #999;
+}
+
+.circliful .fa {
+	margin: -10px 3px 0 3px;
+	position: relative;
+	bottom: 4px;
+}
+/** =========================================================== **/
+
+.check-skill {
+	font-size: 25px;
+}
+.check-skill img {
+	max-width: 2%;
+}
+.check-skill h2 {
+	text-align: center;
+}
+.check-skill div {
+	margin: 10px 10px;
+}
+.my-skills {
+	width: 100%;
+	height: 100vh;
+	padding-top: 80px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.skill-block {
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+}
+.modal-block {
+	display: inline-block;
+	margin: 0 auto;
+}
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .7);
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	
+	display: none;
+}
+.modal {
+	width: 300px;
+	border: 1px solid #333;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 20px;
+	background: #FFF;
+	text-align: center;
+	
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	z-index: 1000;
+	margin-left: -150px;
+	display: none;
+}
+.open-modal {
+	overflow-y: hidden;
+	padding-right: 17px;
+}
+
+
+.technologies-content {
+	display: none;
+	position: relative;
+}
+.popup {
+	width:150px;
+	padding:5px;
+	background-color:#000;
+	border-radius:3px;
+	color:#fff;
+	font-size:12px;
+	position:absolute;
+	z-index:1;
+	margin-left:-75px;
+	display:none
+}
+.popup:before {
+	content:"";
+	border-style:solid;
+	border-width:0 5px 4px 5px;
+	border-color:transparent transparent #000 transparent;
+	position:absolute;
+	top:-3px;
+	left:50%;
+	z-index:1;
+	margin-left:-3px
+}
+
+
+
+.check-skill{
+	height: 100vh;
+}
+
+
+
+
+
+
+.contact {
+	background: url("img/contacts-bg.jpg") no-repeat bottom;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 83vh;
+	color: #FFF;
+}
+.contact h2 {
+	margin-top: 65px;
+	margin-bottom: 50px;
+}
+.contact-skype,
+.contact-email,
+.contact-mobile {
+	margin-top: 15px;
+	display: table;
+	height: 50px;
+	padding-left: 50px;
+}
+.contact-email img,
+.contact-mobile img {
+	margin-right: 10px;
+	width: 45px;
+}
+.contact-skype img {
+	margin-left: 8px;
+	width: 30px;
+	margin-top: 10px;
+	margin-right: 16px;
+}
+.contact-skype div,
+.contact-email div,
+.contact-mobile div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+footer {
+	height: 15vh;
+	margin-top: 10px;
+	text-align: center;
+}
+.social-icons-footer img {
+	margin-right: -3.8px;
+}
+
